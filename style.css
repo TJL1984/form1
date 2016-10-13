@@ -1,3 +1,12 @@
 fieldset {
 display: inline-block;
+vertical-align: top;
+}
+
+label[for='Full Name'] {
+  display: block;
+}
+
+label[for='Profile Pic'] {
+  display: block;
 }
