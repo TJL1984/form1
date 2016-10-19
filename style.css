@@ -3,10 +3,14 @@ display: inline-block;
 vertical-align: top;
 }
 
-label[for='Full Name'] {
+label {
   display: block;
 }
 
-label[for='Profile Pic'] {
-  display: block;
+.side label{
+  display: inline;
+}
+
+.experience label {
+  display: inline;
 }
